@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@svgr/webpack": "^7.0.0",
     "@types/node": "18.15.11",
     "@types/react": "18.0.33",
     "@types/react-dom": "18.0.11",
@@ -18,11 +19,15 @@
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-lazy-load-image-component": "^1.5.6",
     "react-router-dom": "^6.10.0",
     "typescript": "5.0.3"
   },
   "devDependencies": {
+    "@types/react-lazy-load-image-component": "^1.5.2",
     "autoprefixer": "^10.4.14",
+    "file-loader": "^6.2.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.3.1"
   }

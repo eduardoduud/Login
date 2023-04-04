@@ -26,6 +26,9 @@ module.exports = {
         'medium': '10px',
         'large': '15px',
         'topmenu': '83.83px',
+      },
+      backgroundImage: {
+        'login': "url('/src/assets/background.jpg')",
       }
     },
   },
