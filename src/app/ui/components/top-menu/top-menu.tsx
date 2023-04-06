@@ -17,8 +17,9 @@ const TopMenu: FC<TopMenuProps> = () => (
       <div>
         <button>
           <img src={Image.src}
-          width={60} height={50}
+          width={70} height={50}
           alt="Image Alt"
+          className='pt-1'
           />
         </button>
       </div>

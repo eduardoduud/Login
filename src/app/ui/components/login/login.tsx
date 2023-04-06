@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Image from "../../../../assets/background.jpg";
 
 interface LoginProps {}
 
@@ -24,12 +23,14 @@ function Login() {
             placeholder="Digite sua senha"
             className="border-solid border-2 border-cyan-700 w-full p-2 rounded-md focus:outline-none"
           />
-          <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none">
-            Logar
+          <button className="bg-blue-500 w-full text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none">
+            Entrar
           </button>
+          <div className="mt-2 text-white">
+            <p>Não tem uma conta? <strong><a href="#">Registre-se!</a></strong></p>
+          </div>
         </div>
       </div>
-      
     );
 };
 
