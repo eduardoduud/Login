@@ -1,10 +1,11 @@
 import React, { FC } from 'react';
 import Image from "../../../../assets/login.jpg";
+import { Link } from 'react-router-dom';
 
 interface TopMenuProps {}
 
 const TopMenu: FC<TopMenuProps> = () => (
-  <div className="top-menu border-b-4 border-b-indigo-500 h-10 bg-gradient-to-r from-cyan-500 to-blue-500 fixed py-1 top-0 left-0 w-full z-10">
+  <div className="top-menu flex-grow items-center h-12 bg-gradient-topMenu fixed py-1 top-0 left-0 w-full">
     <div className="flex justify-between items-center px-4 lg:px-8">
       <div>
         <button className="border border-white text-white font-bold py px-3 rounded">

@@ -25,13 +25,18 @@ module.exports = {
         'small': '5px',
         'medium': '10px',
         'large': '15px',
-        'topmenu': '83.83px',
+        'topMenu': '83.83px',
       },
-      backgroundImage: {
+      backgroundImage: (theme) => ( {
         'login': "url('/src/assets/background.jpg')",
-      }
+        'gradient-topMenu': `linear-gradient(to right, ${theme('colors.cyantopmenu')}, ${theme('colors.bluetopmenu')})`
+      }),
+      colors: {
+        'cyantopmenu': '#00afff',
+        'bluetopmenu': '#20599c',
+        'regal-blue': '#243c5a'
+      },
     },
   },
   plugins: [],
 }
-
